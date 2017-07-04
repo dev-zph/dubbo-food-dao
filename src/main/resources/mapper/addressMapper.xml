@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="dubbo.out.food.dao.AddressDao">
+    <resultMap id="BaseResultMap" type="dubbo.out.food.model.Address">
+        <id column="id" property="id" jdbcType="INTEGER"/>
+        <result column="user_id" property="userId" jdbcType="INTEGER"/>
+        <result column="phone" property="phone" jdbcType="VARCHAR"/>
+        <result column="connect_name" property="connectName" jdbcType="VARCHAR"/>
+        <result column="sex" property="sex" jdbcType="TINYINT"/>
+        <result column="creat_time" property="creatTime" jdbcType="TIMESTAMP"/>
+        <result column="is_def" property="isDef" jdbcType="TINYINT"/>
+        <result column="id_del" property="idDel" jdbcType="TINYINT"/>
+    </resultMap>
+</mapper>
